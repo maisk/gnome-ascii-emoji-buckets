@@ -3,11 +3,6 @@
   "description": "Buckets of ASCII emojis for your messaging pleasure. A fork of Emoji Buckets.",
   "settings-schema": "org.gnome.shell.extensions.ascii-emoji-buckets",
   "shell-version": [
-    "3.18",
-    "3.20",
-    "3.22",
-    "3.24",
-    "3.26",
     "3.36"
   ],
   "url": "https://github.com/HarshKhandeparkar/gnome-ascii-emoji-buckets",
