@@ -1,7 +1,6 @@
-
 .emoji {
-  padding: 0 0.6em;
-  border: white 1px;
+  font-family: monospace;
+  padding: 0.4em 0.6em;
   border-radius: 2px;
   margin: 2px;
 }
