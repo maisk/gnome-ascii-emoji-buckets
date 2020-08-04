@@ -9,7 +9,6 @@ const Gettext = imports.gettext.domain('ascii-emoji-buckets');
 const _ = Gettext.gettext;
 
 function init() {
-  Convenience.initTranslations("ascii-emoji-buckets");
 }
 
 const EmojiBucketsPrefsWidget = new GObject.Class({

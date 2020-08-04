@@ -29,26 +29,24 @@ var EmojiMenu = new Lang.Class({
     });
 
     box.add(toplabel);
-    this.actor.add_child(box);
+    this.add_child(box);
 
     this.addEmojiSet(_("Emotions And Weird Ones"), Emojis.EMOTIONS, this)
-
-    let prefsMenuItem = this.prefsMenuItem()
-    this.menu.addMenuItem(prefsMenuItem);
   },
 
   addEmojiSet: function(title, emojiSet, menuBase) {
     let newMenuSet = new PopupMenu.PopupSubMenuMenuItem(title);
 
     let item, container;
+    const col_width = Convenience.getSettings().get_int('col-width');
 
     for (var i = 0; i < emojiSet.length; i++) {
       let emoji = emojiSet[i];
-      if (i % 20 === 0) {
+      if (i % col_width === 0) {
         item = new PopupMenu.PopupBaseMenuItem({});
-        item.actor.track_hover = false;
+        item.track_hover = false;
         container = new St.BoxLayout({ style_class: 'menu-box' });
-        item.actor.add(container, { expand: true });
+        item.add(container, { expand: true });
         newMenuSet.menu.addMenuItem(item);
       }
 
@@ -57,24 +55,6 @@ var EmojiMenu = new Lang.Class({
     }
 
     menuBase.menu.addMenuItem(newMenuSet);
-    let fontSize = Convenience.getSettings().get_int('font-size');
-    newMenuSet.menu.box.style_class = 'emoji-size-' + fontSize;
-  },
-
-  prefsMenuItem: function() {
-    let _appSys = Shell.AppSystem.get_default();
-    let _prefs = _appSys.lookup_app('gnome-shell-extension-prefs.desktop');
-    let item = new PopupMenu.PopupMenuItem(_("Preferences..."));
-    item.connect('activate', function () {
-      if (_prefs.get_state() === _prefs.SHELL_APP_STATE_RUNNING){
-        _prefs.activate();
-      } else {
-        let info = _prefs.get_app_info();
-        let timestamp = global.display.get_current_time_roundtrip();
-        info.launch_uris([Me.metadata.uuid], global.create_app_launch_context(timestamp, -1));
-      }
-    });
-    return item;
   },
 
   destroy: function() {
