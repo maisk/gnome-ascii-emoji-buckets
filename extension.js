@@ -14,7 +14,7 @@ const Convenience = Me.imports.convenience;
 let panelMenuButton;
 
 function init() {
-  Convenience.initTranslations("emoji-buckets");
+  Convenience.initTranslations("ascii-emoji-buckets");
 }
 
 function enable() {

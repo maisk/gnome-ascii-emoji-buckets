@@ -5,16 +5,16 @@ const Lang = imports.lang;
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 const Convenience = Me.imports.convenience;
 
-const Gettext = imports.gettext.domain('emoji-buckets');
+const Gettext = imports.gettext.domain('ascii-emoji-buckets');
 const _ = Gettext.gettext;
 
 function init() {
-  Convenience.initTranslations("emoji-buckets");
+  Convenience.initTranslations("ascii-emoji-buckets");
 }
 
 const EmojiBucketsPrefsWidget = new GObject.Class({
-  Name: 'EmojiBuckets.Prefs.Widget',
-  GTypeName: 'EmojiBucketsPrefsWidget',
+  Name: 'ASCIIEmojiBuckets.Prefs.Widget',
+  GTypeName: 'ASCIIEmojiBucketsPrefsWidget',
   Extends: Gtk.Grid,
 
   _init: function(params) {

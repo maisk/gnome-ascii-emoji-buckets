@@ -9,8 +9,8 @@ Access this panel menu with
 imports.ui.main.panel.statusArea.EmojiMenu
 -->
 
-<schemalist gettext-domain="emoji_buckets">
-  <schema path="/org/gnome/shell/extensions/emoji-buckets/" id="org.gnome.shell.extensions.emoji-buckets">
+<schemalist gettext-domain="ascii_emoji_buckets">
+  <schema path="/org/gnome/shell/extensions/ascii-emoji-buckets/" id="org.gnome.shell.extensions.ascii-emoji-buckets">
     <key type="s" name="placement">
       <default>"right"</default>
       <summary>Placement</summary>

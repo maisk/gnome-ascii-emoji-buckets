@@ -10,7 +10,7 @@ const Convenience = Me.imports.convenience;
 const Emojis = Me.imports.emojis;
 const EmojiButton = Me.imports.emoji_button.EmojiButton;
 
-const Gettext = imports.gettext.domain('emoji-buckets');
+const Gettext = imports.gettext.domain('ascii-emoji-buckets');
 const _ = Gettext.gettext;
 
 const EmojiMenu = new Lang.Class({
@@ -23,7 +23,7 @@ const EmojiMenu = new Lang.Class({
     let box = new St.BoxLayout();
 
     let toplabel = new St.Label({
-      text: '😉',
+      text: ';)',
       y_expand: true,
       y_align: Clutter.ActorAlign.CENTER
     });
