@@ -4,7 +4,7 @@ const Clipboard = St.Clipboard.get_default();
 const CLIPBOARD_TYPE = St.ClipboardType.CLIPBOARD;
 
 var EmojiButton = new Lang.Class({
-  Name: 'EmojiButton',
+  Name: 'ASCIIEmojiButton',
   Extends: St.Button,
 
   _init: function (emojiText, menuBase) {

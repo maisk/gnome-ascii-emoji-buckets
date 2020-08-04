@@ -22,7 +22,7 @@ function enable() {
     - 0 is the position
     - `right` is the box where we want our button to be displayed (left/center/right)
      */
-	Main.panel.addToStatusArea('EmojiMenu', panelMenuButton, 0, 'right');
+	Main.panel.addToStatusArea('ASCIIEmojiMenu', panelMenuButton, 0, 'right');
 }
 
 function disable() {

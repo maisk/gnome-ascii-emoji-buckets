@@ -14,11 +14,11 @@ const Gettext = imports.gettext.domain('ascii-emoji-buckets');
 const _ = Gettext.gettext;
 
 var EmojiMenu = new Lang.Class({
-  Name: 'EmojiMenu',
+  Name: 'ASCIIEmojiMenu',
   Extends: PanelMenu.Button,
 
   _init: function() {
-    this.parent(0, 'EmojiMenu', false);
+    this.parent(0, 'ASCIIEmojiMenu', false);
 
     let box = new St.BoxLayout();
 

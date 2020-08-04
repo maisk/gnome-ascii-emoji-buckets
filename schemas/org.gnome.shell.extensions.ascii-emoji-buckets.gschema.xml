@@ -6,7 +6,7 @@ Test out the prefs with
 gnome-shell-extension-prefs
 
 Access this panel menu with
-imports.ui.main.panel.statusArea.EmojiMenu
+imports.ui.main.panel.statusArea.ASCIIEmojiMenu
 -->
 
 <schemalist gettext-domain="ascii_emoji_buckets">
