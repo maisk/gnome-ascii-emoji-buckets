@@ -1,6 +1,9 @@
 
 .emoji {
-  padding: 0 0.2em;
+  padding: 0 0.6em;
+  border: white 1px;
+  border-radius: 2px;
+  margin: 2px;
 }
 
 .emoji-size-1 { font-size: 1em; }

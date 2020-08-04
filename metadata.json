@@ -1,6 +1,6 @@
 {
   "name": "ASCII Emoji Buckets",
-  "description": "Buckets of ASCII emojis for your messaging pleasure.",
+  "description": "Buckets of ASCII emojis for your messaging pleasure. A fork of Emoji Buckets.",
   "settings-schema": "org.gnome.shell.extensions.ascii-emoji-buckets",
   "shell-version": [
     "3.18",
