@@ -39,19 +39,22 @@ var EmojiMenu = new Lang.Class({
 
     let item, container;
     const col_width = Convenience.getSettings().get_int('col-width');
+    let currentColWidth = 0;
 
     for (var i = 0; i < emojiSet.length; i++) {
       let emoji = emojiSet[i];
-      if (i % col_width === 0) {
+      if (currentColWidth >= col_width || currentColWidth == 0) {
         item = new PopupMenu.PopupBaseMenuItem({});
         item.track_hover = false;
         container = new St.BoxLayout({ style_class: 'menu-box' });
         item.add(container, { expand: true });
         newMenuSet.menu.addMenuItem(item);
+        currentColWidth = 0;
       }
 
       let button = new EmojiButton(emoji, menuBase)
       container.add_child(button);
+      currentColWidth += emoji.length;
     }
 
     menuBase.menu.addMenuItem(newMenuSet);

@@ -18,7 +18,7 @@ imports.ui.main.panel.statusArea.ASCIIEmojiMenu
     </key>
 
     <key type="i" name="col-width">
-      <default>10</default>
+      <default>20</default>
       <summary>Column Width</summary>
       <description>No of emojis to be displayed per row.</description>
     </key>
