@@ -2,7 +2,7 @@
 Emoji Buckets is a shell extension for the [GNOME](https://www.gnome.org/) desktop.
 
 ## About
-This is a fork of the GNOME shell extensions [emoji-buckets](https://github.com/harlemsquirrel/gnome-emoji-buckets) that ASCII emojis (¯\\\_(ツ)_/¯) instead of normal ones :shrug:
+This is a fork of the GNOME shell extensions [emoji-buckets](https://github.com/harlemsquirrel/gnome-emoji-buckets) with ASCII emojis (¯\\\_(ツ)_/¯) instead of normal ones :shrug:
 
 ## Installation
 
