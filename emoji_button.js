@@ -3,7 +3,7 @@ const St = imports.gi.St;
 const Clipboard = St.Clipboard.get_default();
 const CLIPBOARD_TYPE = St.ClipboardType.CLIPBOARD;
 
-const EmojiButton = new Lang.Class({
+var EmojiButton = new Lang.Class({
   Name: 'EmojiButton',
   Extends: St.Button,
 

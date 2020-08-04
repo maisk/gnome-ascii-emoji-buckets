@@ -13,7 +13,7 @@ const EmojiButton = Me.imports.emoji_button.EmojiButton;
 const Gettext = imports.gettext.domain('ascii-emoji-buckets');
 const _ = Gettext.gettext;
 
-const EmojiMenu = new Lang.Class({
+var EmojiMenu = new Lang.Class({
   Name: 'EmojiMenu',
   Extends: PanelMenu.Button,
 
