@@ -31,7 +31,7 @@ const EmojiMenu = new Lang.Class({
     box.add(toplabel);
     this.actor.add_child(box);
 
-    this.addEmojiSet(_("Emotions And Weird Ones"), Emojis.EMOTICONS, this)
+    this.addEmojiSet(_("Emotions And Weird Ones"), Emojis.EMOTIONS, this)
 
     let prefsMenuItem = this.prefsMenuItem()
     this.menu.addMenuItem(prefsMenuItem);
@@ -45,7 +45,7 @@ const EmojiMenu = new Lang.Class({
     for (var i = 0; i < emojiSet.length; i++) {
       let emoji = emojiSet[i];
       if (i % 20 === 0) {
-        item = new PopupMenu.PopupBaseMenuItem('');
+        item = new PopupMenu.PopupBaseMenuItem({});
         item.actor.track_hover = false;
         container = new St.BoxLayout({ style_class: 'menu-box' });
         item.actor.add(container, { expand: true });
