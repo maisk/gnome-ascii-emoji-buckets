@@ -11,5 +11,7 @@ command -v underscore >/dev/null 2>&1 || {
 VERSION="$(underscore extract --in metadata.json 'version')"
 UUID="$(underscore extract --in metadata.json --outfmt text 'uuid')"
 
+glib-compile-schemas schemas/
+
 printf "  Zipping into $UUID-v$VERSION\n"
 zip -r "$UUID-v$VERSION" schemas *.js *.json *.css LICENSE README.md
