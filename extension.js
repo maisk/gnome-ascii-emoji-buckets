@@ -9,12 +9,10 @@ const Tweener = imports.ui.tweener;
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 const EmojiMenuImport = Me.imports.emoji_menu;
 const EmojiMenu = EmojiMenuImport.EmojiMenu;
-const Convenience = Me.imports.convenience;
 
 let panelMenuButton;
 
 function init() {
-  Convenience.initTranslations("ascii-emoji-buckets");
 }
 
 function enable() {
