@@ -31,14 +31,7 @@ const EmojiMenu = new Lang.Class({
     box.add(toplabel);
     this.actor.add_child(box);
 
-    this.addEmojiSet(_("Smileys & People"), Emojis.SMILEYS, this)
-    this.addEmojiSet(_("Nature"), Emojis.NATURE, this)
-    this.addEmojiSet(_("Food"), Emojis.FOOD, this)
-    this.addEmojiSet(_("Activities"), Emojis.ACTIVITIES, this)
-    this.addEmojiSet(_("Travel"), Emojis.TRAVEL, this)
-    this.addEmojiSet(_("Objects"), Emojis.OBJECTS, this)
-    this.addEmojiSet(_("Symbols"), Emojis.SYMBOLS, this)
-    this.addEmojiSet(_("Flags"), Emojis.FLAGS, this)
+    this.addEmojiSet(_("Emotions And Weird Ones"), Emojis.EMOTICONS, this)
 
     let prefsMenuItem = this.prefsMenuItem()
     this.menu.addMenuItem(prefsMenuItem);
