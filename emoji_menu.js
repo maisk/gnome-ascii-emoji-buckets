@@ -31,7 +31,9 @@ var EmojiMenu = new Lang.Class({
     box.add(toplabel);
     this.add_child(box);
 
-    this.addEmojiSet(_("Emotions And Weird Ones"), Emojis.EMOTIONS, this)
+    Emojis.EMOTICONS.forEach(EmoticonSet => {
+      this.addEmojiSet(EmoticonSet.category, EmoticonSet.emoteList, this)
+    })
   },
 
   addEmojiSet: function(title, emojiSet, menuBase) {
