@@ -11,7 +11,7 @@ This is a fork of the GNOME shell extensions [emoji-buckets](https://github.com/
 These are UTF-8 symbols so it should work on almost every system without any extra fonts, yay!
 
 #### Option 1
-You can download [this](gnome-ascii-emoji-installer.sh) script and run it locally to install the latest version.
+You can download [this](ascii-emoji-installer.sh) script and run it locally to install the latest version.
 
 #### Option 2
 You can install this extension by downloading a released version and extracting the files into the following directory.
