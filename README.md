@@ -5,9 +5,6 @@ Emoji Buckets is a shell extension for the [GNOME](https://www.gnome.org/) deskt
 This is a fork of the GNOME shell extensions [emoji-buckets](https://github.com/harlemsquirrel/gnome-emoji-buckets) with ASCII emojis (¯\\\_(ツ)_/¯) instead of normal ones :shrug:
 
 ## Installation
-
-
-### Install manually
 These are UTF-8 symbols so it should work on almost every system without any extra fonts, yay!
 
 #### Option 1
