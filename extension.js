@@ -26,5 +26,5 @@ function enable() {
 }
 
 function disable() {
-	button.destroy();
+  panelMenuButton.destroy();
 }
