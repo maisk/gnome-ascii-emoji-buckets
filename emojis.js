@@ -1,5 +1,6 @@
 // Source
 // Emoticons: https://en.wikipedia.org/wiki/List_of_emoticons
+//https://wprock.fr/en/blog/kaomoji-emoji-smiley-ascii-art/#:~:text=Find%20a%20list%20of%20more,in%20Japan%20in%20the%201990s
 
 var EMOTICONS = [
   {
@@ -40,5 +41,19 @@ var EMOTICONS = [
       '(ΘεΘ;)', 'ヽ(ｏ`皿′ｏ)ﾉ', '' 
     ],
     category: 'ヾ(≧▽≦*)o'
+  },
+  {
+    emoteList: [
+      'ʕ•ᴥ•ʔ ', 'ʕᵔᴥᵔʔ ', 'ʕ •`ᴥ•´ʔ ', 'ʕ •́؈•̀ ₎ ', '(`･ω･´) ',
+      'ᵒᴥᵒ ', 'V•ᴥ•V ', 'ฅ^•ﻌ•^ฅ ', '( ఠൠఠ )ﾉ ', 'ʕʘ̅͜ʘ̅ʔ ', 'ح˚௰˚づ '
+    ],
+    category: 'ʕ•ᴥ•ʔ'
+  },
+  {
+    emoteList: [
+     '（ ^_^）o自自o（^_^ ） ', '༼∵༽ ༼⍨༽ ༼⍢༽ ༼⍤༽ ', 'ヽ༼ ಠ益ಠ ༽ﾉ ',
+     '乁( ◔ ౪◔)「 ┑(￣Д ￣)┍ ', '(∩｀-´)⊃━☆ﾟ.*･｡ﾟ ', 'ε=ε=ε=┌(;*´Д`)ﾉ ', '-`ღ´- '
+    ],
+    category: '（ ^_^）o自自o（^_^ ） '
   }
 ]
