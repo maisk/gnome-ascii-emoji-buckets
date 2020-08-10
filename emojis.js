@@ -27,7 +27,7 @@ var EMOTICONS = [
   },
   {
     emoteList: [
-      '°o°', 'o_O', 'o_0', 'o.O', '(o.o)', 'oO','(-.-)'
+      '°o°', 'o_O', 'o_0', 'o.O', 'o.o', 'oO','-.-', '-_-', 'OwO'
     ],
     category: '°o°'
   },
