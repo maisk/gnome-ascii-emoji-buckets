@@ -4,7 +4,7 @@ const Lightbox = imports.ui.lightbox;
 const Main = imports.ui.main;
 const ModalDialog = imports.ui.modalDialog;
 const St = imports.gi.St;
-const Tweener = imports.ui.tweener;
+const Tweener = imports.tweener.tweener;
 
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 const EmojiMenuImport = Me.imports.emoji_menu;
