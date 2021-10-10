@@ -23,7 +23,7 @@ var EmojiMenu = new Lang.Class({
     let box = new St.BoxLayout();
 
     let toplabel = new St.Label({
-      text: ';)',
+      text: 'A∀',
       y_expand: true,
       y_align: Clutter.ActorAlign.CENTER
     });
@@ -49,7 +49,7 @@ var EmojiMenu = new Lang.Class({
         item = new PopupMenu.PopupBaseMenuItem({});
         item.track_hover = false;
         container = new St.BoxLayout({ style_class: 'menu-box' });
-        item.add(container);
+        item.add(container, { expand: true });
         newMenuSet.menu.addMenuItem(item);
         currentColWidth = 0;
       }
