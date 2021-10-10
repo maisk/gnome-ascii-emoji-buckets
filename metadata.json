@@ -1,12 +1,12 @@
 {
-  "name": "ASCII Emoji Buckets",
-  "description": "Buckets of ASCII emojis for your messaging pleasure. A fork of Emoji Buckets.",
+  "name": "ASCII Buckets",
+  "description": "Buckets of ASCII.  A fork of Emoji Buckets.",
   "settings-schema": "org.gnome.shell.extensions.ascii-emoji-buckets",
   "shell-version": [
     "3.38",
     "3.38.1"
   ],
-  "url": "https://github.com/HarshKhandeparkar/gnome-ascii-emoji-buckets",
-  "uuid": "ascii_emoji_buckets@HarshKhandeparkar",
+  "url": "https://github.com/maisk/gnome-ascii-emoji-buckets",
+  "uuid": "ascii_buckets@maistrelis.com",
   "version": 9
 }
