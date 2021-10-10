@@ -49,7 +49,7 @@ var EmojiMenu = new Lang.Class({
         item = new PopupMenu.PopupBaseMenuItem({});
         item.track_hover = false;
         container = new St.BoxLayout({ style_class: 'menu-box' });
-        item.add(container, { expand: true });
+        item.add(container);//, { expand: true }
         newMenuSet.menu.addMenuItem(item);
         currentColWidth = 0;
       }
