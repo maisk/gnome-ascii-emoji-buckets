@@ -4,7 +4,7 @@
   "settings-schema": "org.gnome.shell.extensions.ascii-emoji-buckets",
   "shell-version": [
     "3.38",
-    "3.38.1"
+    "3.38.1","40"
   ],
   "url": "https://github.com/maisk/gnome-ascii-emoji-buckets",
   "uuid": "ascii_buckets@maistrelis.com",
